@@ -8,5 +8,3 @@ consumer = KafkaConsumer(
 
 for message in consumer:
     print(message.value)    
-
-#172.31.43.88

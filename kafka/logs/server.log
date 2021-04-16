@@ -3539,3 +3539,5 @@ org.apache.zookeeper.server.persistence.FileTxnSnapLog$DatadirException: Unable 
 [2021-04-15 23:07:35,188] INFO [Partition twitter-0 broker=0] No checkpointed highwatermark is found for partition twitter-0 (kafka.cluster.Partition)
 [2021-04-15 23:07:35,189] INFO [Partition twitter-0 broker=0] Log loaded for partition twitter-0 with initial high watermark 0 (kafka.cluster.Partition)
 [2021-04-15 23:07:35,191] INFO [Partition twitter-0 broker=0] twitter-0 starts at leader epoch 0 from offset 0 with high watermark 0. Previous leader epoch was -1. (kafka.cluster.Partition)
+[2021-04-15 23:17:14,986] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2021-04-15 23:27:14,980] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

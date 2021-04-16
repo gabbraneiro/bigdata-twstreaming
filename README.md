@@ -38,11 +38,6 @@ Aclaración:
   ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties
 ```
 
-Aclaración: Si utiliza windows, debe ejecutar:
-```sh
-    bash ./kafka/bin/zookeeper-server-start.sh ./kafka/config/zookeeper.properties
-    bash ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties
-```
 * Es necesario utilizar una consola por comando.
 
 ### Ejecutar productor

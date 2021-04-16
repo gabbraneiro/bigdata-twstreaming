@@ -42,6 +42,13 @@ Aclaración:
 
 ### Ejecutar productor
 
+Antes que nada se deben instalar tweepy y kafka-python
+
+```sh
+  pip3 install tweepy
+  pip3 install kafka-python
+```
+
 Las credenciales de de la API de Twitter se encuentran en el archivo tweet-producer/config.py. Le recomendamos que las cambie por sus propias credenciales.
 
 En este archivo también se encuentra la configuración del server. Deberá modificar la información con la correspondiente al server en donde ejecutará Kafka.

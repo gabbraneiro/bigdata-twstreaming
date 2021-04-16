@@ -18,6 +18,7 @@ Y reemplazar "your.host.name" por el nombre del host en el que va a correr Kafka
 
 Aclaración: 
     Si utiliza windows, debe modificar la ruta de los logs. Éstas se encuentran en:
+    
         config/zookeeper.properties
             Modificar:
                 dataDir=/tmp/zookeeper
@@ -37,12 +38,11 @@ Aclaración:
   ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties
 ```
 
-Aclaración: 
-    Si utiliza windows, debe ejecutar:
-        ```sh
-            bash ./kafka/bin/zookeeper-server-start.sh ./kafka/config/zookeeper.properties
-            bash ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties
-        ```
+Aclaración: Si utiliza windows, debe ejecutar:
+```sh
+    bash ./kafka/bin/zookeeper-server-start.sh ./kafka/config/zookeeper.properties
+    bash ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties
+```
 * Es necesario utilizar una consola por comando.
 
 ### Ejecutar productor
@@ -53,7 +53,7 @@ En este archivo también se encuentra la configuración del server. Deberá modi
 
 Por último ejecutar el tweet-producer/producer.py.
 
-## Funcionamiento del productor
+### Funcionamiento del productor
 
     - Conexión con la API de Twitter.
     - Conexión con el server de Kafka.
